@@ -17,7 +17,7 @@ DEFS=-DUSE_JPEG2000 -DUSE_PNG
 #     can be found (jasper/*.h and png.h pngconf.h zconf.h zlib.h)
 #
 
-INC=-I/export/lnx102/wd42bv/jasper-1.900.1/src/libjasper/include
+INC=
 
 #
 #   This "C" source code contains many uses of the C++
