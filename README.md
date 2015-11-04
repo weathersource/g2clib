@@ -1,4 +1,5 @@
 # g2clib
+<pre>
                                                            August 06, 2013
                                                            W/SIB:VUONG
 
@@ -50,7 +51,7 @@ libpng.a      This library is a C implementation of the Portable Network
               if PNG support in GRIB2 is desired.  If not, remove
               the -DUSE_PNG option from the DEFS variable
               in the makefile.
-
+              
               If not already installed on your system, download version 
               libpng-1.2.44 from http://www.libpng.org/pub/png/libpng.html.
 
@@ -65,3 +66,4 @@ libz.a        This library contains compression/decompression routines
 
               If not already installed on your system, download version 
               zlib-1.2.6 from http://www.gzip.org/zlib/.
+</pre>
