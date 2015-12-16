@@ -9,7 +9,7 @@ env = Environment\
 (
     CFLAGS=['-O3'],
     CPPDEFINES={'USE_JPEG2000' : None, 'USE_PNG' : None},
-    LINKFLAGS=['-s']
+    LIBS=['jasper','png']
 )
 
 # Get the commmand line prefix and add it to the environment
