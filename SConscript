@@ -73,10 +73,10 @@ headers=( 'grib2.h', )
 installDir = '${PREFIX}'
 
 # Fully qualifiy the sources with the path name
-absSources = map( lambda x: os.path.join( 'src', x ), sources )
+absSources = [os.path.join( 'src', x ) for x in sources]
 
 # Fully qualifiy the sources with the path name
-absHeaders = map( lambda x: os.path.join( 'src', x ), headers )
+absHeaders = [os.path.join( 'src', x ) for x in headers]
 
 staticTarget = env.StaticLibrary(target=TARGET,source=absSources)
 sharedTarget = env.SharedLibrary(target=TARGET,source=absSources)
